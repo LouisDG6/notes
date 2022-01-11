@@ -102,6 +102,7 @@ function finalGrade (exam, projects) {
   else if (exam > 75 && projects >= 5) return 90;
   else if (exam > 50 && projects >= 2) return 75;
   else return 0;
+}
 
 ## Duty Free 
 function dutyFree(normPrice, discount, hol){
